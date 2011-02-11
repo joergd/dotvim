@@ -6,6 +6,7 @@ set ttyfast      " speeds up drawing on fast terminals
 set ruler        " show cursor position
 set gdefault     " make searches global by default
 set laststatus=2 " show status bar
+set nowrap
 
 call pathogen#runtime_append_all_bundles()
 
@@ -56,7 +57,7 @@ set wildignore=*.log,*.swp,*~ " ignore these files when completing
 
 set backspace=indent,eol,start " allow backspacing over autoindent, eols and start of insert
 
-colorscheme molokai
+colorscheme zenburn
 
 syntax on                 " enable syntax highlighting
 filetype plugin on        " enable filetype detection and plugins
@@ -90,7 +91,7 @@ set scrolloff=3 " keep n lines of offset when scrolling
 
 if has("gui_macvim")
     set fuoptions=maxvert,maxhorz " fullscreen options (MacVim only), resized window when changed to fullscreen
-    set guifont=Monaco:h10        " use Monaco 10pt
+    set guifont=DroidSansMono:h14        " use Monaco 10pt
     set guioptions-=T             " remove toolbar
     set guioptions=aAce           " remove scrollbars
     set noanti                    " turn off anti-aliasing
@@ -146,3 +147,4 @@ endfunction
 
 map <Leader>p :call Privatize()<CR>
 
+let macvim_hig_shift_movement = 1
