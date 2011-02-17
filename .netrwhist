@@ -1,3 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/Volumes/dev/trac-on-time/repo/trac-on-time'
+let g:netrw_dirhist_2='/Volumes/dev/faceoff/faceoff'
+let g:netrw_dirhist_3='/Volumes/dev/c5/hero'
+let g:netrw_dirhist_4='/Volumes/dev/c5/five.tv/five.tv'
+let g:netrw_dirhist_5='/Volumes/dev/c5/hero'
+let g:netrw_dirhist_6='/Volumes/dev/faceoff/faceoff'
+let g:netrw_dirhist_7='/Volumes/dev/c5/hero'

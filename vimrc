@@ -94,6 +94,8 @@ if has("gui_macvim")
     set guifont=DroidSansMono:h14        " use Monaco 10pt
     set guioptions-=T             " remove toolbar
     set guioptions=aAce           " remove scrollbars
+    set guioptions-=a " remove auto-copy to clipboard"
+    set guioptions-=A " this one too"
     set noanti                    " turn off anti-aliasing
 end
 
